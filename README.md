@@ -4,6 +4,17 @@ A curated collection of research papers, datasets, tools, implementations, and l
 
 This repository is based primarily on the research paper **“Comparing Grounded and Ungrounded LLM Response Accuracy on Domain-Specific Research Queries.”**
 
+## Final implementation paper · PubMedQA
+
+The completed experiment compares closed-book, TF–IDF top-1, and reference context for one fixed FLAN-T5-small checkpoint on 500 official PubMedQA test questions. Accuracy was 34.6%, 52.8%, and 53.4%, respectively. The paired TF–IDF gain over closed-book was 18.2 percentage points (95% bootstrap interval 11.4–24.8). The study evaluates benchmark label agreement.
+
+- [Execution guide](pubmedqa/README.md) · [Colab notebook](pubmedqa/pubmedqa_grounding.ipynb)
+- [Final paper PDF](pubmedqa/paper/PubMedQA_Research_Paper.pdf) · [LaTeX source](pubmedqa/paper/main.tex)
+- [Official PQA-L data copies](pubmedqa/data/) · [Original run evidence](pubmedqa/results/test-b9a5965fbf.zip)
+- [Frozen protocol](pubmedqa/configs/frozen_protocol.md) · [Validation and provenance](pubmedqa/provenance/)
+
+The literature review and citation audit below document the earlier phase of this project.
+
 ## Contents
 
 - [Overview](#overview)

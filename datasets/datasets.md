@@ -2,6 +2,10 @@
 
 The research paper identifies several benchmarks relevant to hallucination, factuality, long-tail knowledge, and domain-specific evaluation.
 
+## PubMedQA · Final experiment
+
+The final study uses the authors' PQA-L abstract bodies and 500 official test labels. See the [execution guide](../pubmedqa/README.md#dataset-acquisition) for the [bundled snapshots](../pubmedqa/data/), original source, and integrity checks.
+
 ## TruthfulQA
 
 TruthfulQA evaluates whether language models produce truthful answers to questions designed to expose common misconceptions.
